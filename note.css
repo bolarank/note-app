@@ -51,6 +51,7 @@ button:hover {
   background-color: #b5ecec;
   width: 10rem;
   height: 10rem;
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
