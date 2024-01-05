@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 252, 248);
+}
+.ff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+#note {
+  margin-top: 10px;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 7px rgba(0, 0, 0, 0.1);
+  outline: none;
+  border-color: none;
+  border: none;
+  background: white;
+}
+#note::placeholder {
+  font-size: 24px;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background: blueviolet;
+}
+button:hover {
+  cursor: pointer;
+  background: rgb(169, 95, 239);
+}
+
+/* p {
+  background-color: black;
+  margin-top: 30px;
+} */
+
+#nnn {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.note-card {
+  background-color: #b5ecec;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: 0rem;
+}
