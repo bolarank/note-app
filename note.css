@@ -48,10 +48,10 @@ button:hover {
 }
 
 .note-card {
-  background-color: #b5ecec;
+  background-color: rgb(242, 231, 231);
   width: 10rem;
   height: 10rem;
-  border: none;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,5 +62,8 @@ button:hover {
   text-overflow: ellipsis;
   overflow-y: scroll;
   overflow-x: hidden;
-  scrollbar-width: 0rem;
+  scrollbar-width: none;
+}
+::-webkit-scrollbar{
+  display: none;
 }
